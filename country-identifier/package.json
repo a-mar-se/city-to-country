@@ -1,0 +1,17 @@
+{
+  "name": "country-identifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "a-mar-se",
+  "license": "MIT",
+  "scripts": {
+    "serve": "yarn nodemon ./index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.6",
+    "winston": "^3.3.3"
+  },
+  "type": "module"
+}
