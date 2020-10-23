@@ -1,7 +1,7 @@
 #Pseudo code
 
-- [] Establecer `yarn scripts` para inicialización del servidor
-- [] Instalar las siguientes dependencias:
+- [x] Establecer `yarn scripts` para inicialización del servidor
+- [x] Instalar las siguientes dependencias:
 
   - Express
   - Body parser
@@ -10,11 +10,11 @@
   - Dotenv
   - Node fetch
 
-- [] Crear un archivo `index`
-- [] Crear un servidor usando express en el archivo `index`
-- [] Crear una carpeta llamada `lib`
-- [] Dentro de `lib crear un logger
-- [] Crear una carpeta llamada `middleware` que contenga los middlewares para:
+- [x] Crear un archivo `index`
+- [x] Crear un servidor usando express en el archivo `index`
+- [x] Crear una carpeta llamada `lib`
+- [x] Dentro de `lib crear un logger
+- [x] Crear una carpeta llamada `middleware` que contenga los middlewares para:
   - Logger
   - Que las respuestas salgan en formato **JSON**
 - [] Decirle al servidor que serialice las peticiones a JSON usando `body-parser`

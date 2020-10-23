@@ -23,7 +23,7 @@ const getCountryByCity = async (city) => {
     const data = await response.json();
     const [firstResult] = data.results;
     const country = firstResult.components.country;
-    return country;
+    return { country };
   } catch (error) {
     throw new Error(error);
   }

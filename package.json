@@ -1,0 +1,16 @@
+{
+  "name": "city-to-country",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/a-mar-se/city-to-country.git",
+  "author": "a-mar-se <a.marquez.seco@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ]
+}
